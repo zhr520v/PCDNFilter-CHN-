@@ -1,6 +1,7 @@
 # Merged and deduplicated AdGuard Home filter rules
-
 # From SophiEZzz and anti-AD
+
+# Domain blocking rules
 ||gjfzpt.cn^
 ||szbdyd.com^
 ||bsccdn.net^
@@ -35,9 +36,8 @@
 ||p2pupgrade.gamedl.qq.com^
 ||p2pvod-ws.douyucdn.cn^
 
-
-# 正则表达式，AdGuard Home 
-/^.*pcdn.*biliapi\.net^
-/^.*pcdn.*youku\.com^
-/^.*p2p.*douyucdn\.cn^
-/^.*p2p.*qq\.com^
+# Regular expression rules
+/.*pcdn.*biliapi\.net/
+/.*pcdn.*youku\.com/
+/.*p2p.*douyucdn\.cn/
+/.*p2p.*qq\.com/
